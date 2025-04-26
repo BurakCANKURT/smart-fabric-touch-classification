@@ -63,13 +63,13 @@ streamlit run main.py
 ## 🖼️ Demo Screenshots
 
 ### 🟢 Menu Page (Project Overview):
-![Menu Screenshot](ss1.png)
+![Menu Screenshot](./media/ss1.png)
 
 ### 🟡 Touch Parameter Visualization:
-![Touch Prediction](ss2.png)
+![Touch Prediction](./media/ss2.png)
 
 ### 🔵 User Parameter Visualization:
-![User Prediction](ss3.png)
+![User Prediction](./media/ss3.png)
 
 ---
 
@@ -78,14 +78,11 @@ streamlit run main.py
 ```
 ├── main.py                                # Streamlit app
 ├── touch_and_user_classification.py       # ML training and feature importance logic (not called in Streamlit)
-├── kmeans_model_random_forest_touch.png   # Visualization for touch prediction
-├── kmeans_model_random_forest_user.png    # Visualization for user prediction
+├── plot                                  # Visualizations
 ├── requirements.txt                      # Dependencies
 ├── README.md                              # Project description (this file)
-├── 03-Touch and User Classification from Smart Fabric.xlsx  # Input data (if shared)
-├── ss1.png                                # Menu Demo
-├── ss2.png                                # Touch Parameter Visualization Demo
-└── ss3.png                                # User Parameter Visualization Demo
+├── 03-Touch and User Classification from Smart Fabric.xlsx  # Input data (if shared)                             # Touch Parameter Visualization Demo
+└── media                               # Program Visualization Demo
 ```
 
 ---
