@@ -22,12 +22,12 @@ def main():
     elif page == "📊 Touch Parameter Visualization":
         st.title("Touch Parameter - Feature Importances")
         st.write("Below is the Random Forest feature importance visualization for touch type classification.")
-        st.image("kmeans_model_random_forest_touch.png", caption="Top 100 Features for Touch Prediction", use_container_width =True)
+        st.image("models/kmeans_model_random_forest_touch.png", caption="Top 100 Features for Touch Prediction", use_container_width =True)
 
     elif page == "📊 User Parameter Visualization":
         st.title("User Parameter - Feature Importances")
         st.write("Below is the Random Forest feature importance visualization for user classification.")
-        st.image("kmeans_model_random_forest_user.png", caption="Top 100 Features for User Prediction", use_container_width =True)
+        st.image("models/kmeans_model_random_forest_user.png", caption="Top 100 Features for User Prediction", use_container_width =True)
 
     
 if __name__ == "__main__":
