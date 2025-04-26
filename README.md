@@ -78,7 +78,7 @@ streamlit run main.py
 ```
 ├── main.py                                # Streamlit app
 ├── touch_and_user_classification.py       # ML training and feature importance logic (not called in Streamlit)
-├── plot                                   # Visualizations
+├── models                                   # Visualizations
 ├── requirements.txt                      # Dependencies
 ├── README.md                              # Project description (this file)
 ├── 03-Touch and User Classification from Smart Fabric.xlsx  # Input data (if shared)                            # Touch Parameter Visualization Demo
