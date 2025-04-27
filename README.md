@@ -30,7 +30,7 @@ It also provides **feature importance visualizations** and prepares the data for
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/touch-user-classification.git
+   git clone https://github.com/BurakCANKURT/touch-user-classification.git
    cd touch-user-classification
    ```
 
