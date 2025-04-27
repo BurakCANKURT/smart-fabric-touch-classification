@@ -101,3 +101,12 @@ streamlit run main.py
 - The **model training part is not triggered** from the Streamlit app. The app is designed for visualization only.
 
 ---
+
+## 📌 What I Learned
+
+- Handling high-dimensional sensor data (3200 features) for classification tasks.
+- Applying Random Forest classifiers for multi-class prediction problems.
+- Interpreting model results through feature importance visualizations.
+- Designing modular ML pipelines by separating training logic from the interactive web interface.
+- Using Streamlit and streamlit-option-menu to build user-friendly dashboards for machine learning results.
+
