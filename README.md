@@ -1,6 +1,8 @@
 
 # 🧪 Touch and User Classification from Smart Fabric
 
+🎯 Goal: Classify different touch gestures and identify users based on smart fabric sensor data using Random Forest classifiers.
+
 This project focuses on classifying **touch types** and **user identities** using sensor data collected from smart fabrics.  
 By applying **Random Forest classifiers**, the project predicts either the type of touch or the user ID based on 3200 sensor features.  
 It also provides **feature importance visualizations** and prepares the data for **outlier detection**.
@@ -12,19 +14,25 @@ It also provides **feature importance visualizations** and prepares the data for
 - **Touch Type Prediction:** Classifies different touch gestures based on sensor data.
 - **User Identification:** Detects which user interacted with the fabric.
 - **Feature Importance Analysis:** Visualizes the top 100 most significant sensor features.
-- **Outlier Detection:** Helps identify anomalies in the dataset (currently placeholder).
+- **Outlier Detection:** The code structure supports anomaly detection, but this feature is currently not active in the Streamlit interface.
+
 
 ---
+## ⚙️ Technologies Used
 
 ## ⚙️ Technologies Used
 
-- 🐍 Python 3.x
-- 📊 Streamlit (for interactive web app)
-- 🌲 Scikit-learn (Random Forest classifier)
-- 🧮 Pandas, NumPy (data processing)
-- 📉 Matplotlib (visualization)
+| Technology                | Purpose                                       |
+|----------------------------|----------------------------------------------|
+| **Python 3.x**             | Core programming language                    |
+| **Scikit-learn**           | Random Forest classifier for predictions     |
+| **Pandas, NumPy**          | Data preprocessing and manipulation          |
+| **Matplotlib**             | Feature importance and result visualizations |
+| **Streamlit**              | Interactive web-based interface              |
+| **Streamlit-option-menu**  | Sidebar navigation and menu selection within Streamlit |
 
 ---
+
 
 ## 📂 Installation
 
