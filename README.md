@@ -89,7 +89,6 @@ streamlit run main.py
 ├── models                                   # Visualizations
 ├── requirements.txt                      # Dependencies
 ├── README.md                              # Project description (this file)
-├── 03-Touch and User Classification from Smart Fabric.xlsx  # Input data (if shared)                            # Touch Parameter Visualization Demo
 └── media                            # Program Visualization Demo
 ```
 
@@ -102,6 +101,11 @@ streamlit run main.py
 
 ---
 
+##📄 Data Disclaimer:
+The datasets used in this project were provided by my university professor solely for educational purposes.
+These datasets are not publicly distributed and are used here for demonstration and academic showcase only.
+
+---
 ## 📌 What I Learned
 
 - Handling high-dimensional sensor data (3200 features) for classification tasks.
@@ -110,3 +114,4 @@ streamlit run main.py
 - Designing modular ML pipelines by separating training logic from the interactive web interface.
 - Using Streamlit and streamlit-option-menu to build user-friendly dashboards for machine learning results.
 
+---
